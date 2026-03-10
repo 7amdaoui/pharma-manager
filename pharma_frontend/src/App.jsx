@@ -29,6 +29,9 @@ const navStyle = {
   display: 'flex',
   justifyContent: 'space-between',
   alignItems: 'center',
+  width: '100%',
+  boxSizing: 'border-box',
+  margin: 0,
 };
 
 const linkStyle = {
