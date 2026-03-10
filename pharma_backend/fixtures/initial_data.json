@@ -1,0 +1,83 @@
+[
+  {
+    "model": "categories.categorie",
+    "pk": 1,
+    "fields": {
+      "nom": "Antibiotiques",
+      "description": "Médicaments utilisés pour traiter les infections bactériennes"
+    }
+  },
+  {
+    "model": "categories.categorie",
+    "pk": 2,
+    "fields": {
+      "nom": "Antalgiques",
+      "description": "Médicaments contre la douleur"
+    }
+  },
+  {
+    "model": "categories.categorie",
+    "pk": 3,
+    "fields": {
+      "nom": "Anti-inflammatoires",
+      "description": "Médicaments réduisant l'inflammation"
+    }
+  },
+  {
+    "model": "medicaments.medicament",
+    "pk": 1,
+    "fields": {
+      "nom": "Amoxicilline",
+      "dci": "Amoxicilline",
+      "categorie": 1,
+      "forme": "Comprimé",
+      "dosage": "500mg",
+      "prix_achat": "15.00",
+      "prix_vente": "25.00",
+      "stock_actuel": 5,
+      "stock_minimum": 10,
+      "date_expiration": "2026-12-31",
+      "ordonnance_requise": true,
+      "est_actif": true,
+      "date_creation": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "medicaments.medicament",
+    "pk": 2,
+    "fields": {
+      "nom": "Paracétamol",
+      "dci": "Paracétamol",
+      "categorie": 2,
+      "forme": "Comprimé",
+      "dosage": "1000mg",
+      "prix_achat": "5.00",
+      "prix_vente": "12.00",
+      "stock_actuel": 50,
+      "stock_minimum": 20,
+      "date_expiration": "2027-06-30",
+      "ordonnance_requise": false,
+      "est_actif": true,
+      "date_creation": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "medicaments.medicament",
+    "pk": 3,
+    "fields": {
+      "nom": "Ibuprofène",
+      "dci": "Ibuprofène",
+      "categorie": 3,
+      "forme": "Comprimé",
+      "dosage": "400mg",
+      "prix_achat": "8.00",
+      "prix_vente": "18.00",
+      "stock_actuel": 3,
+      "stock_minimum": 15,
+      "date_expiration": "2027-03-31",
+      "ordonnance_requise": false,
+      "est_actif": true,
+      "date_creation": "2026-01-01T00:00:00Z"
+    }
+  }
+]
